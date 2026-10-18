@@ -1,0 +1,625 @@
+[
+ {
+  "id": "Paraguay_934240",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/Paraguay_934240_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/Paraguay_934240_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/Paraguay_934240_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/Paraguay_934240_JRCWaterHand.tif"
+ },
+ {
+  "id": "India_691027",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/India_691027_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/India_691027_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/India_691027_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/India_691027_JRCWaterHand.tif"
+ },
+ {
+  "id": "India_869358",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/India_869358_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/India_869358_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/India_869358_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/India_869358_JRCWaterHand.tif"
+ },
+ {
+  "id": "India_833266",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/India_833266_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/India_833266_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/India_833266_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/India_833266_JRCWaterHand.tif"
+ },
+ {
+  "id": "Nigeria_984831",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/Nigeria_984831_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/Nigeria_984831_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/Nigeria_984831_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/Nigeria_984831_JRCWaterHand.tif"
+ },
+ {
+  "id": "Somalia_649376",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/Somalia_649376_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/Somalia_649376_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/Somalia_649376_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/Somalia_649376_JRCWaterHand.tif"
+ },
+ {
+  "id": "Paraguay_7894",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/Paraguay_7894_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/Paraguay_7894_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/Paraguay_7894_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/Paraguay_7894_JRCWaterHand.tif"
+ },
+ {
+  "id": "Sri-Lanka_236628",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/Sri-Lanka_236628_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/Sri-Lanka_236628_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/Sri-Lanka_236628_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/Sri-Lanka_236628_JRCWaterHand.tif"
+ },
+ {
+  "id": "Sri-Lanka_85652",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/Sri-Lanka_85652_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/Sri-Lanka_85652_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/Sri-Lanka_85652_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/Sri-Lanka_85652_JRCWaterHand.tif"
+ },
+ {
+  "id": "Paraguay_76868",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/Paraguay_76868_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/Paraguay_76868_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/Paraguay_76868_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/Paraguay_76868_JRCWaterHand.tif"
+ },
+ {
+  "id": "Pakistan_9684",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/Pakistan_9684_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/Pakistan_9684_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/Pakistan_9684_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/Pakistan_9684_JRCWaterHand.tif"
+ },
+ {
+  "id": "Ghana_495107",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/Ghana_495107_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/Ghana_495107_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/Ghana_495107_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/Ghana_495107_JRCWaterHand.tif"
+ },
+ {
+  "id": "USA_761032",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/USA_761032_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/USA_761032_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/USA_761032_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/USA_761032_JRCWaterHand.tif"
+ },
+ {
+  "id": "Mekong_977338",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/Mekong_977338_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/Mekong_977338_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/Mekong_977338_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/Mekong_977338_JRCWaterHand.tif"
+ },
+ {
+  "id": "USA_275372",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/USA_275372_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/USA_275372_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/USA_275372_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/USA_275372_JRCWaterHand.tif"
+ },
+ {
+  "id": "Ghana_5079",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/Ghana_5079_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/Ghana_5079_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/Ghana_5079_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/Ghana_5079_JRCWaterHand.tif"
+ },
+ {
+  "id": "India_533192",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/India_533192_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/India_533192_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/India_533192_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/India_533192_JRCWaterHand.tif"
+ },
+ {
+  "id": "Paraguay_305760",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/Paraguay_305760_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/Paraguay_305760_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/Paraguay_305760_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/Paraguay_305760_JRCWaterHand.tif"
+ },
+ {
+  "id": "India_180633",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/India_180633_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/India_180633_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/India_180633_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/India_180633_JRCWaterHand.tif"
+ },
+ {
+  "id": "India_769408",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/India_769408_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/India_769408_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/India_769408_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/India_769408_JRCWaterHand.tif"
+ },
+ {
+  "id": "USA_646878",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/USA_646878_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/USA_646878_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/USA_646878_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/USA_646878_JRCWaterHand.tif"
+ },
+ {
+  "id": "Sri-Lanka_612594",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/Sri-Lanka_612594_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/Sri-Lanka_612594_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/Sri-Lanka_612594_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/Sri-Lanka_612594_JRCWaterHand.tif"
+ },
+ {
+  "id": "Ghana_234935",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/Ghana_234935_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/Ghana_234935_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/Ghana_234935_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/Ghana_234935_JRCWaterHand.tif"
+ },
+ {
+  "id": "USA_741178",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/USA_741178_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/USA_741178_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/USA_741178_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/USA_741178_JRCWaterHand.tif"
+ },
+ {
+  "id": "Paraguay_648632",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/Paraguay_648632_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/Paraguay_648632_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/Paraguay_648632_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/Paraguay_648632_JRCWaterHand.tif"
+ },
+ {
+  "id": "Somalia_256539",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/Somalia_256539_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/Somalia_256539_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/Somalia_256539_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/Somalia_256539_JRCWaterHand.tif"
+ },
+ {
+  "id": "Sri-Lanka_321316",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/Sri-Lanka_321316_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/Sri-Lanka_321316_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/Sri-Lanka_321316_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/Sri-Lanka_321316_JRCWaterHand.tif"
+ },
+ {
+  "id": "Paraguay_172476",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/Paraguay_172476_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/Paraguay_172476_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/Paraguay_172476_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/Paraguay_172476_JRCWaterHand.tif"
+ },
+ {
+  "id": "India_1068117",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/India_1068117_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/India_1068117_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/India_1068117_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/India_1068117_JRCWaterHand.tif"
+ },
+ {
+  "id": "Nigeria_1095404",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/Nigeria_1095404_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/Nigeria_1095404_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/Nigeria_1095404_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/Nigeria_1095404_JRCWaterHand.tif"
+ },
+ {
+  "id": "Sri-Lanka_236030",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/Sri-Lanka_236030_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/Sri-Lanka_236030_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/Sri-Lanka_236030_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/Sri-Lanka_236030_JRCWaterHand.tif"
+ },
+ {
+  "id": "India_70352",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/India_70352_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/India_70352_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/India_70352_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/India_70352_JRCWaterHand.tif"
+ },
+ {
+  "id": "Paraguay_896458",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/Paraguay_896458_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/Paraguay_896458_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/Paraguay_896458_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/Paraguay_896458_JRCWaterHand.tif"
+ },
+ {
+  "id": "Mekong_474783",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/Mekong_474783_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/Mekong_474783_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/Mekong_474783_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/Mekong_474783_JRCWaterHand.tif"
+ },
+ {
+  "id": "USA_741073",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/USA_741073_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/USA_741073_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/USA_741073_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/USA_741073_JRCWaterHand.tif"
+ },
+ {
+  "id": "Spain_4282030",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/Spain_4282030_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/Spain_4282030_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/Spain_4282030_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/Spain_4282030_JRCWaterHand.tif"
+ },
+ {
+  "id": "USA_225017",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/USA_225017_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/USA_225017_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/USA_225017_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/USA_225017_JRCWaterHand.tif"
+ },
+ {
+  "id": "India_118868",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/India_118868_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/India_118868_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/India_118868_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/India_118868_JRCWaterHand.tif"
+ },
+ {
+  "id": "Spain_1199913",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/Spain_1199913_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/Spain_1199913_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/Spain_1199913_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/Spain_1199913_JRCWaterHand.tif"
+ },
+ {
+  "id": "Paraguay_153941",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/Paraguay_153941_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/Paraguay_153941_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/Paraguay_153941_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/Paraguay_153941_JRCWaterHand.tif"
+ },
+ {
+  "id": "Pakistan_336228",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/Pakistan_336228_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/Pakistan_336228_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/Pakistan_336228_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/Pakistan_336228_JRCWaterHand.tif"
+ },
+ {
+  "id": "Nigeria_820924",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/Nigeria_820924_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/Nigeria_820924_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/Nigeria_820924_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/Nigeria_820924_JRCWaterHand.tif"
+ },
+ {
+  "id": "USA_986268",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/USA_986268_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/USA_986268_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/USA_986268_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/USA_986268_JRCWaterHand.tif"
+ },
+ {
+  "id": "Somalia_61368",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/Somalia_61368_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/Somalia_61368_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/Somalia_61368_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/Somalia_61368_JRCWaterHand.tif"
+ },
+ {
+  "id": "Pakistan_1027214",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/Pakistan_1027214_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/Pakistan_1027214_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/Pakistan_1027214_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/Pakistan_1027214_JRCWaterHand.tif"
+ },
+ {
+  "id": "Paraguay_1019808",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/Paraguay_1019808_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/Paraguay_1019808_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/Paraguay_1019808_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/Paraguay_1019808_JRCWaterHand.tif"
+ },
+ {
+  "id": "Ghana_132163",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/Ghana_132163_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/Ghana_132163_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/Ghana_132163_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/Ghana_132163_JRCWaterHand.tif"
+ },
+ {
+  "id": "India_244057",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/India_244057_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/India_244057_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/India_244057_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/India_244057_JRCWaterHand.tif"
+ },
+ {
+  "id": "India_164336",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/India_164336_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/India_164336_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/India_164336_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/India_164336_JRCWaterHand.tif"
+ },
+ {
+  "id": "Spain_6537196",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/Spain_6537196_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/Spain_6537196_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/Spain_6537196_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/Spain_6537196_JRCWaterHand.tif"
+ },
+ {
+  "id": "USA_366607",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/USA_366607_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/USA_366607_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/USA_366607_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/USA_366607_JRCWaterHand.tif"
+ },
+ {
+  "id": "India_764946",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/India_764946_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/India_764946_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/India_764946_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/India_764946_JRCWaterHand.tif"
+ },
+ {
+  "id": "Spain_7604243",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/Spain_7604243_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/Spain_7604243_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/Spain_7604243_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/Spain_7604243_JRCWaterHand.tif"
+ },
+ {
+  "id": "Mekong_293769",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/Mekong_293769_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/Mekong_293769_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/Mekong_293769_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/Mekong_293769_JRCWaterHand.tif"
+ },
+ {
+  "id": "Paraguay_205585",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/Paraguay_205585_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/Paraguay_205585_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/Paraguay_205585_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/Paraguay_205585_JRCWaterHand.tif"
+ },
+ {
+  "id": "Sri-Lanka_101973",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/Sri-Lanka_101973_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/Sri-Lanka_101973_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/Sri-Lanka_101973_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/Sri-Lanka_101973_JRCWaterHand.tif"
+ },
+ {
+  "id": "USA_251323",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/USA_251323_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/USA_251323_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/USA_251323_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/USA_251323_JRCWaterHand.tif"
+ },
+ {
+  "id": "USA_1082482",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/USA_1082482_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/USA_1082482_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/USA_1082482_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/USA_1082482_JRCWaterHand.tif"
+ },
+ {
+  "id": "Paraguay_252217",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/Paraguay_252217_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/Paraguay_252217_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/Paraguay_252217_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/Paraguay_252217_JRCWaterHand.tif"
+ },
+ {
+  "id": "India_1018317",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/India_1018317_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/India_1018317_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/India_1018317_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/India_1018317_JRCWaterHand.tif"
+ },
+ {
+  "id": "Somalia_167787",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/Somalia_167787_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/Somalia_167787_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/Somalia_167787_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/Somalia_167787_JRCWaterHand.tif"
+ },
+ {
+  "id": "Ghana_895194",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/Ghana_895194_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/Ghana_895194_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/Ghana_895194_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/Ghana_895194_JRCWaterHand.tif"
+ },
+ {
+  "id": "Ghana_277",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/Ghana_277_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/Ghana_277_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/Ghana_277_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/Ghana_277_JRCWaterHand.tif"
+ },
+ {
+  "id": "Sri-Lanka_31559",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/Sri-Lanka_31559_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/Sri-Lanka_31559_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/Sri-Lanka_31559_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/Sri-Lanka_31559_JRCWaterHand.tif"
+ },
+ {
+  "id": "Spain_8372658",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/Spain_8372658_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/Spain_8372658_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/Spain_8372658_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/Spain_8372658_JRCWaterHand.tif"
+ },
+ {
+  "id": "Mekong_1149855",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/Mekong_1149855_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/Mekong_1149855_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/Mekong_1149855_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/Mekong_1149855_JRCWaterHand.tif"
+ },
+ {
+  "id": "Ghana_1033830",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/Ghana_1033830_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/Ghana_1033830_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/Ghana_1033830_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/Ghana_1033830_JRCWaterHand.tif"
+ },
+ {
+  "id": "Paraguay_657443",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/Paraguay_657443_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/Paraguay_657443_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/Paraguay_657443_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/Paraguay_657443_JRCWaterHand.tif"
+ },
+ {
+  "id": "Pakistan_43105",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/Pakistan_43105_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/Pakistan_43105_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/Pakistan_43105_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/Pakistan_43105_JRCWaterHand.tif"
+ },
+ {
+  "id": "India_1050276",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/India_1050276_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/India_1050276_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/India_1050276_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/India_1050276_JRCWaterHand.tif"
+ },
+ {
+  "id": "Pakistan_210595",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/Pakistan_210595_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/Pakistan_210595_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/Pakistan_210595_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/Pakistan_210595_JRCWaterHand.tif"
+ },
+ {
+  "id": "Mekong_98310",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/Mekong_98310_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/Mekong_98310_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/Mekong_98310_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/Mekong_98310_JRCWaterHand.tif"
+ },
+ {
+  "id": "Nigeria_31096",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/Nigeria_31096_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/Nigeria_31096_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/Nigeria_31096_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/Nigeria_31096_JRCWaterHand.tif"
+ },
+ {
+  "id": "Paraguay_284928",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/Paraguay_284928_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/Paraguay_284928_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/Paraguay_284928_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/Paraguay_284928_JRCWaterHand.tif"
+ },
+ {
+  "id": "Pakistan_94095",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/Pakistan_94095_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/Pakistan_94095_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/Pakistan_94095_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/Pakistan_94095_JRCWaterHand.tif"
+ },
+ {
+  "id": "Paraguay_581976",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/Paraguay_581976_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/Paraguay_581976_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/Paraguay_581976_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/Paraguay_581976_JRCWaterHand.tif"
+ },
+ {
+  "id": "USA_1039203",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/USA_1039203_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/USA_1039203_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/USA_1039203_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/USA_1039203_JRCWaterHand.tif"
+ },
+ {
+  "id": "Ghana_142312",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/Ghana_142312_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/Ghana_142312_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/Ghana_142312_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/Ghana_142312_JRCWaterHand.tif"
+ },
+ {
+  "id": "Sri-Lanka_63307",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/Sri-Lanka_63307_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/Sri-Lanka_63307_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/Sri-Lanka_63307_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/Sri-Lanka_63307_JRCWaterHand.tif"
+ },
+ {
+  "id": "USA_826217",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/USA_826217_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/USA_826217_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/USA_826217_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/USA_826217_JRCWaterHand.tif"
+ },
+ {
+  "id": "USA_308150",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/USA_308150_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/USA_308150_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/USA_308150_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/USA_308150_JRCWaterHand.tif"
+ },
+ {
+  "id": "Ghana_124834",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/Ghana_124834_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/Ghana_124834_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/Ghana_124834_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/Ghana_124834_JRCWaterHand.tif"
+ },
+ {
+  "id": "Mekong_1413877",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/Mekong_1413877_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/Mekong_1413877_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/Mekong_1413877_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/Mekong_1413877_JRCWaterHand.tif"
+ },
+ {
+  "id": "Ghana_308249",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/Ghana_308249_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/Ghana_308249_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/Ghana_308249_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/Ghana_308249_JRCWaterHand.tif"
+ },
+ {
+  "id": "USA_19225",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/USA_19225_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/USA_19225_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/USA_19225_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/USA_19225_JRCWaterHand.tif"
+ },
+ {
+  "id": "Sri-Lanka_132922",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/Sri-Lanka_132922_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/Sri-Lanka_132922_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/Sri-Lanka_132922_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/Sri-Lanka_132922_JRCWaterHand.tif"
+ },
+ {
+  "id": "Ghana_868803",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/Ghana_868803_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/Ghana_868803_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/Ghana_868803_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/Ghana_868803_JRCWaterHand.tif"
+ },
+ {
+  "id": "Spain_8565131",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/Spain_8565131_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/Spain_8565131_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/Spain_8565131_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/Spain_8565131_JRCWaterHand.tif"
+ },
+ {
+  "id": "Somalia_12849",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/Somalia_12849_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/Somalia_12849_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/Somalia_12849_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/Somalia_12849_JRCWaterHand.tif"
+ }
+]

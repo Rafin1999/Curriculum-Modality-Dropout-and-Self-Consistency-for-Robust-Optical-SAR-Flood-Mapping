@@ -85,8 +85,10 @@ first cell. Outside Kaggle, update the dataset paths at the top of each notebook
   the `sen1floods11` GCS bucket
   (`gs://sen1floods11/v1.1/splits/flood_handlabeled/`). This repository does not
   assert a licence for the dataset; follow the terms of the original release.
-- **`data/splits/`** holds the derived paired file index and normalization
-  statistics produced by `notebooks/01_data_audit.ipynb` (see its README).
+- **`data/splits/`** holds the exact split used in the paper: the paired file
+  index (250 / 89 / 90 / 15 chips), the normalization statistics and the
+  official split CSVs (see its README). The stored paths point to the public
+  Kaggle copy of Sen1Floods11.
 - **Permanent-water layer** used for the flood-only metric: the JRC raster that
   ships with the Sen1Floods11 hand-labelled partition (pixels with value > 0 are
   excluded). Check the Sen1Floods11 data description for the exact product and

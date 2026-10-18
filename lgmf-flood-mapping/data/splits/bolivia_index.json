@@ -1,0 +1,107 @@
+[
+ {
+  "id": "Bolivia_242570",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/Bolivia_242570_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/Bolivia_242570_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/Bolivia_242570_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/Bolivia_242570_JRCWaterHand.tif"
+ },
+ {
+  "id": "Bolivia_294583",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/Bolivia_294583_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/Bolivia_294583_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/Bolivia_294583_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/Bolivia_294583_JRCWaterHand.tif"
+ },
+ {
+  "id": "Bolivia_233925",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/Bolivia_233925_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/Bolivia_233925_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/Bolivia_233925_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/Bolivia_233925_JRCWaterHand.tif"
+ },
+ {
+  "id": "Bolivia_314919",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/Bolivia_314919_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/Bolivia_314919_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/Bolivia_314919_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/Bolivia_314919_JRCWaterHand.tif"
+ },
+ {
+  "id": "Bolivia_23014",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/Bolivia_23014_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/Bolivia_23014_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/Bolivia_23014_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/Bolivia_23014_JRCWaterHand.tif"
+ },
+ {
+  "id": "Bolivia_195474",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/Bolivia_195474_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/Bolivia_195474_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/Bolivia_195474_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/Bolivia_195474_JRCWaterHand.tif"
+ },
+ {
+  "id": "Bolivia_60373",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/Bolivia_60373_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/Bolivia_60373_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/Bolivia_60373_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/Bolivia_60373_JRCWaterHand.tif"
+ },
+ {
+  "id": "Bolivia_379434",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/Bolivia_379434_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/Bolivia_379434_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/Bolivia_379434_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/Bolivia_379434_JRCWaterHand.tif"
+ },
+ {
+  "id": "Bolivia_103757",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/Bolivia_103757_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/Bolivia_103757_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/Bolivia_103757_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/Bolivia_103757_JRCWaterHand.tif"
+ },
+ {
+  "id": "Bolivia_432776",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/Bolivia_432776_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/Bolivia_432776_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/Bolivia_432776_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/Bolivia_432776_JRCWaterHand.tif"
+ },
+ {
+  "id": "Bolivia_290290",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/Bolivia_290290_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/Bolivia_290290_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/Bolivia_290290_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/Bolivia_290290_JRCWaterHand.tif"
+ },
+ {
+  "id": "Bolivia_312675",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/Bolivia_312675_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/Bolivia_312675_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/Bolivia_312675_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/Bolivia_312675_JRCWaterHand.tif"
+ },
+ {
+  "id": "Bolivia_360519",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/Bolivia_360519_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/Bolivia_360519_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/Bolivia_360519_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/Bolivia_360519_JRCWaterHand.tif"
+ },
+ {
+  "id": "Bolivia_129334",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/Bolivia_129334_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/Bolivia_129334_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/Bolivia_129334_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/Bolivia_129334_JRCWaterHand.tif"
+ },
+ {
+  "id": "Bolivia_76104",
+  "s1": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S1Hand/Bolivia_76104_S1Hand.tif",
+  "s2": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/S2Hand/Bolivia_76104_S2Hand.tif",
+  "label": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/LabelHand/Bolivia_76104_LabelHand.tif",
+  "jrc": "/kaggle/input/datasets/robertomarinoformica/sen1floods11-dataset/HandLabeled/JRCWaterHand/Bolivia_76104_JRCWaterHand.tif"
+ }
+]
