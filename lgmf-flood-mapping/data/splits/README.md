@@ -1,32 +1,30 @@
 # data/splits/
 
-This folder should contain the five files produced by
-`notebooks/01_data_audit.ipynb`:
+The paired file index and normalization statistics are **derived files**: they
+list where each Sen1Floods11 chip lives on the machine that built them, so they
+are regenerated rather than versioned here.
 
-- `train_index.json`
-- `val_index.json`
-- `test_index.json`
-- `bolivia_index.json`
-- `norm_stats.json`
+Files (written by `notebooks/01_data_audit.ipynb`; also exported by
+`notebooks/revision/rev11_audit_and_release.ipynb` in the release bundle):
 
-These were generated on Kaggle and saved as the `lgmf-index` dataset
-(~5 MB total). **Before pushing this repo publicly**, copy those five files
-from your Kaggle dataset output into this folder, replacing this README (or
-keeping it alongside them).
+- `train_index.json`, `val_index.json`, `test_index.json`, `bolivia_index.json`
+- `norm_stats.json` (per-channel mean and std, computed on the training split)
 
-Quickest way to fetch them if you no longer have a local copy:
+Split sizes used in the paper: train 250 / validation 89 / test 90 / Bolivia 15
+(the official hand-labelled split has 252 training chips; two with more than
+98 % no-data pixels are dropped).
 
-```bash
-kaggle datasets download -d <your-username>/lgmf-index -p ./data/splits --unzip
-```
-
-Each `*_index.json` is a list of records of the form:
+Each `*_index.json` is a list of records:
 
 ```json
 {"id": "Bolivia_103757", "s1": "<path>", "s2": "<path>", "label": "<path>", "jrc": "<path or null>"}
 ```
 
-The `s1`/`s2`/`label`/`jrc` paths are absolute Kaggle paths and will not
-resolve outside that environment. Update `dataset.py`'s expectations or
-regenerate the index against your local Sen1Floods11 copy (rerun
-`01_data_audit.ipynb` pointed at local paths) if you're not running on Kaggle.
+The `id` is `<Event>_<chip number>`; the event is the part before the first
+underscore. Paths are absolute and point to your copy of Sen1Floods11.
+
+**To obtain the files**
+1. Download Sen1Floods11 and the official split CSVs (see the main README).
+2. Run `notebooks/01_data_audit.ipynb` with the paths at the top pointed at your copy.
+3. Or download the archived copy from the Zenodo release (DOI in the main README),
+   then rewrite the paths to your local data location.
