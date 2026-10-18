@@ -18,4 +18,4 @@ __all__ = [
     "regime_probs", "sample_present", "eval_regimes", "apply_present",
     "EarlyFusionNet", "build_baseline", "build_gated_unet",
 ]
-__version__ = "7.0.0"
+__version__ = "8.0.0"

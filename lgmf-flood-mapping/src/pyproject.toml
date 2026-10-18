@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "lgmf"
-version = "7.0.0"
+version = "8.0.0"
 description = "Curriculum modality dropout and self-consistency for robust optical-SAR flood mapping"
 requires-python = ">=3.9"
 dependencies = [
@@ -13,6 +13,9 @@ dependencies = [
     "segmentation-models-pytorch==0.5.0",
     "rasterio>=1.5.0",
     "numpy>=2.0",
+    "pandas>=2.0",
+    "scipy>=1.11",
+    "thop>=0.1.1",
     "matplotlib>=3.10",
 ]
 

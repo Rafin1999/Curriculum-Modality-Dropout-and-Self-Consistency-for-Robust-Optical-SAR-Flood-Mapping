@@ -49,6 +49,7 @@ class LGMFConfig:
     bce_weight: float = 1.0
     dice_weight: float = 1.0
     consistency_weight: float = 0.5               # 0 disables self-consistency
+    consistency_symmetric: bool = False           # v8: also pull the OPTICAL-only view toward the fused target (default off = paper)
     pos_weight: float = 1.0                       # BCE positive-class weight
     # Focal-Tversky (used when loss_type='focal_tversky'); alpha>beta favors
     # recall -> lifts SAR-only, which under-detects water.

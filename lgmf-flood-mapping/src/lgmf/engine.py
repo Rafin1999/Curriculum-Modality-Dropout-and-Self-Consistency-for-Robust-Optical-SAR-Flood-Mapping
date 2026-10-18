@@ -1,5 +1,10 @@
 """Train / eval loops. Kept in the package so every run and ablation uses the
 IDENTICAL loop -- the notebook only supplies a config and data.
+
+v8 changes (behaviour of the paper's recipe is unchanged):
+  * train_one_epoch now MEASURES the regime shares it actually drew
+    (realised counts of both / s1_only / s2_only examples) and returns them.
+  * optional symmetric consistency (cfg.consistency_symmetric, default False).
 """
 from typing import Dict
 
@@ -23,11 +28,18 @@ def train_one_epoch(model, loader, optimizer, cfg, epoch, device,
     probs = regime_probs(cfg, epoch)
     running = {"loss": 0.0, "seg": 0.0, "cons": 0.0}
     n = 0
+    realised = torch.zeros(3, device=device)       # examples drawn: both, s1_only, s2_only
+    cons_examples = torch.zeros((), device=device)  # examples that received a consistency term
+    sym = bool(getattr(cfg, "consistency_symmetric", False))
     for batch in loader:
         s1 = batch["s1"].to(device); s2 = batch["s2"].to(device)
         target = batch["label"].to(device); valid = batch["valid"].to(device)
         bs = s1.size(0)
         present = sample_present(bs, probs, device)
+        is_both = present.sum(1) == 2
+        is_s1 = (present[:, 0] == 1) & (present[:, 1] == 0)
+        is_s2 = (present[:, 0] == 0) & (present[:, 1] == 1)
+        realised += torch.stack([is_both.sum(), is_s1.sum(), is_s2.sum()]).float()
         s1i, s2i = apply_present(s1, s2, present)
 
         optimizer.zero_grad(set_to_none=True)
@@ -38,7 +50,7 @@ def train_one_epoch(model, loader, optimizer, cfg, epoch, device,
             # self-consistency: for samples that had BOTH present, also run a
             # single-modality pass and pull it toward the (detached) fused pred.
             if cfg.consistency_weight > 0:
-                both = (present.sum(1) == 2)
+                both = is_both
                 if both.any():
                     idx = both.nonzero(as_tuple=True)[0]
                     # drop optical -> SAR-only path should match fused
@@ -47,6 +59,13 @@ def train_one_epoch(model, loader, optimizer, cfg, epoch, device,
                     s1_only = model(s1[idx], torch.zeros_like(s2[idx]), p_s1)
                     cons = consistency_loss(
                         s1_only["logits"], logits[idx].detach(), valid[idx])
+                    if sym:   # optional: optical-only view too
+                        p_s2 = torch.zeros(len(idx), 2, device=device)
+                        p_s2[:, 1] = 1.0
+                        s2_only = model(torch.zeros_like(s1[idx]), s2[idx], p_s2)
+                        cons = cons + consistency_loss(
+                            s2_only["logits"], logits[idx].detach(), valid[idx])
+                    cons_examples += len(idx)
             loss = seg + cfg.consistency_weight * cons
 
         if scaler is not None:
@@ -66,7 +85,14 @@ def train_one_epoch(model, loader, optimizer, cfg, epoch, device,
         running["seg"] += seg.item() * bs
         running["cons"] += float(cons.detach()) * bs
         n += bs
-    return {k: v / max(n, 1) for k, v in running.items()} | {"probs": probs}
+    out = {k: v / max(n, 1) for k, v in running.items()}
+    counts = [int(x) for x in realised.cpu().tolist()]
+    tot = max(sum(counts), 1)
+    out["probs"] = probs                                  # what the schedule asked for
+    out["counts"] = counts                                # what was actually drawn
+    out["shares"] = tuple(c / tot for c in counts)
+    out["cons_examples"] = int(cons_examples.item())
+    return out
 
 
 @torch.no_grad()

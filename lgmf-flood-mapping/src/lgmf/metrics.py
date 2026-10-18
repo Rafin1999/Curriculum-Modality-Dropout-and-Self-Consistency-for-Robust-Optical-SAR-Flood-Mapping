@@ -3,6 +3,8 @@
 `SegMeter` accumulates confusion counts over a loader so IoU/F1 are computed
 on the whole set (not averaged per-batch, which biases small batches).
 """
+import copy
+
 import torch
 
 
@@ -49,7 +51,7 @@ def flops_g(model, cfg, device="cpu") -> float:
         from thop import profile
     except ImportError:
         return -1.0
-    model = model.to(device).eval()
+    model = copy.deepcopy(model).to(device).eval()   # v8: never move/modify the caller's model (thop also adds buffers)
     s1 = torch.randn(1, 2, cfg.img_size, cfg.img_size, device=device)
     s2 = torch.randn(1, len(cfg.s2_bands), cfg.img_size, cfg.img_size, device=device)
     present = torch.ones(1, 2, device=device)

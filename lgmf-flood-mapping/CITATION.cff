@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "LGMF: Curriculum Modality Dropout and Self-Consistency for Robust Optical-SAR Flood Mapping"
+version: "8.0.0"
+license: MIT
+repository-code: "https://github.com/Rafin1999/Curriculum-Modality-Dropout-and-Self-Consistency-for-Robust-Optical-SAR-Flood-Mapping"
+authors:
+  - family-names: Rafin
+    given-names: Nafiz Imtiaz
+  - family-names: Ghose
+    given-names: Swattic
+  - family-names: Jawad
+    given-names: Rubaiyet Hossain
+  - family-names: Alam
+    given-names: Md. Golam Rabiul
