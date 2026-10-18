@@ -3,6 +3,7 @@ message: "If you use this software, please cite it as below."
 title: "LGMF: Curriculum Modality Dropout and Self-Consistency for Robust Optical-SAR Flood Mapping"
 version: "8.0.0"
 license: MIT
+doi: 10.5281/zenodo.23457175
 repository-code: "https://github.com/Rafin1999/Curriculum-Modality-Dropout-and-Self-Consistency-for-Robust-Optical-SAR-Flood-Mapping"
 authors:
   - family-names: Rafin

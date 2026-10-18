@@ -9,7 +9,7 @@ Self-Consistency for Robust Optical-SAR Flood Mapping with Missing Sensors"*
 > `notebooks/revision/rev11` to `rev17`) and updates the package to v8. The
 > training recipe code path is unchanged from v7; every number in the original
 > Table 2 was re-derived from the saved checkpoints and reproduces within 0.0004.
-> Archived release: **Zenodo DOI `10.5281/zenodo.XXXXXXX` (to be added at release)**.
+> Archived code release: **Zenodo DOI [10.5281/zenodo.23457175](https://doi.org/10.5281/zenodo.23457175)**.
 
 ## What the repository contains
 
@@ -106,7 +106,7 @@ first cell. Outside Kaggle, update the dataset paths at the top of each notebook
 ## Trained model weights and run outputs
 
 Checkpoints (EMA weights, key `ema` in `best.pt`), per-chip results and config
-files are not stored in git. They are archived at the Zenodo DOI above. Every
+files are not stored in git. They are archived in a separate Zenodo record (DOI to be added once published). Every
 run directory `runs_e45/<run_id>/seed<seed>/` contains `config.json`,
 `history.json` (per-epoch loss, measured regime shares, validation IoU),
 `best.pt`, `perchip.csv.gz` and `result.json`.
