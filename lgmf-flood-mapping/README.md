@@ -89,10 +89,14 @@ first cell. Outside Kaggle, update the dataset paths at the top of each notebook
   index (250 / 89 / 90 / 15 chips), the normalization statistics and the
   official split CSVs (see its README). The stored paths point to the public
   Kaggle copy of Sen1Floods11.
-- **Permanent-water layer** used for the flood-only metric: the JRC raster that
-  ships with the Sen1Floods11 hand-labelled partition (pixels with value > 0 are
-  excluded). Check the Sen1Floods11 data description for the exact product and
-  version before citing it.
+- **Permanent-water layer** (`JRCWaterHand`, used for the flood-only metric):
+  according to Bonafilia et al. (2020), Sec. 2.1, it comes from the JRC surface
+  water dataset (monthly Landsat observations at 30 m, record 1984-2018);
+  permanent water is the class that was water at both the start and the end of
+  the record, taken from the transition layer. The raster contains only the
+  values 0 and 1, and pixels with value 1 are excluded from the flood-only
+  metric. Seasonal and ephemeral water is not excluded, so flood-only IoU is not
+  a pure flood-water score.
 - Non-finite SAR values are set to zero **before** standardisation, which maps
   them to a fixed offset (not the mean) after standardisation. Missing-modality
   inputs use the same zero fill during training and evaluation.
