@@ -10,6 +10,7 @@ Self-Consistency for Robust Optical-SAR Flood Mapping with Missing Sensors"*
 > training recipe code path is unchanged from v7; every number in the original
 > Table 2 was re-derived from the saved checkpoints and reproduces within 0.0004.
 > Archived code release: **Zenodo DOI [10.5281/zenodo.23457175](https://doi.org/10.5281/zenodo.23457175)**.
+> Trained weights, run logs and result tables: **Zenodo DOI [10.5281/zenodo.23568792](https://doi.org/10.5281/zenodo.23568792)**.
 
 ## What the repository contains
 
@@ -105,11 +106,90 @@ first cell. Outside Kaggle, update the dataset paths at the top of each notebook
 
 ## Trained model weights and run outputs
 
-Checkpoints (EMA weights, key `ema` in `best.pt`), per-chip results and config
-files are not stored in git. They are archived in a separate Zenodo record (DOI to be added once published). Every
-run directory `runs_e45/<run_id>/seed<seed>/` contains `config.json`,
-`history.json` (per-epoch loss, measured regime shares, validation IoU),
-`best.pt`, `perchip.csv.gz` and `result.json`.
+Weights, per-chip results and run logs are not stored in git. They are archived
+in a separate Zenodo record, [10.5281/zenodo.23568792](https://doi.org/10.5281/zenodo.23568792)
+(one zip, `zenodo_release.zip`, about 2.2 GB). Inside `release/`:
+
+| Path | Contents |
+|---|---|
+| `weights/<origin>/<run_id>/seed<N>.pt` | EMA weights at the selected epoch: a dict with `state_dict`, `arch`, `encoder`, `kind`, `seed`, `run`, `epoch`, `val_at_selection`, `cfg` |
+| `run_logs/<origin>/<run_id>/seed<N>/` | `config.json`, `history.json` (per-epoch losses, measured regime shares, validation IoU), `result.json`, `perchip.csv.gz` (TP/FP/FN/TN per chip, regime and split) |
+| `tables/` | Result tables written by each notebook (`nb12_*.csv` ... `nb16_*.csv`, including `nb16_perchip_all.csv.gz`) |
+| `code/lgmf/`, `norm_stats/`, `split_manifest/` | Code snapshot, normalisation statistics, split index |
+| `MANIFEST.csv`, `weights_manifest.csv`, `COVERAGE_REPORT.md` | Size and SHA-256 of every file; which runs and seeds are included |
+
+Load a checkpoint:
+
+```python
+import torch
+from lgmf.runner import build_from_spec
+ck = torch.load("release/weights/<origin>/seg_full_ref/seed42.pt", map_location="cpu", weights_only=False)
+spec = {"kind": ck["kind"], "arch": ck["arch"], "encoder": ck["encoder"],
+        **{k: v for k, v in ck["tag"].items() if k in ("film", "gate")}}
+model = build_from_spec(spec, pretrained=False); model.load_state_dict(ck["state_dict"]); model.eval()
+```
+
+The original Table 2 checkpoints (`segformer_concat`, `segformer_noconsist`,
+`unet_drop`, `manet_drop`, `unet_naive`) predate the architecture tag, so their
+`kind` is `unknown`; build them with `arch` and `encoder` from the run name
+(SegFormer MiT-B0, or U-Net / MANet with a MobileNetV2 encoder) and `in_ch=8`.
+
+**Missing-sensor input at inference.** The concatenation models take the
+eight standardised channels (2 Sentinel-1, 6 Sentinel-2) and a `present`
+vector `[s1, s2]`. They do not use the indicators as features: an absent sensor
+is represented only by setting its standardised channels to zero
+(`lgmf.curriculum.apply_present`), exactly as in training. The gated and FiLM
+front ends also receive `present` as an input.
+
+Run ids used in the paper: `seg_full_ref` SegFormer-B0 with dropout and
+consistency; `seg_plain` SegFormer-B0 without either; `unet_full`, `manet_full`
+U-Net and MANet with the recipe; `seg_consonly`, `seg_uniform`, `seg_matched`,
+`seg_fixed_asym`, `seg_term_*`, `seg_warm0` the factorial and dropout controls;
+`seg_spec_s1`, `seg_spec_s2` the specialists; `seg_symcons` two-sided consistency;
+`*_gate_*`, `*_film_*`, `*_adapter_only` the fusion front ends; `sf_seg_on`,
+`sf_seg_off` SenForFlood; `segformer_concat`, `unet_drop`, `manet_drop`,
+`unet_naive`, `segformer_noconsist` the original runs of the first version of
+the paper. FPN was not kept.
+
+Original and repeated runs (paper, Section 3.8): the five run ids just listed
+are the *original* runs; every other id is a *repeated* run trained for the
+revision with the same protocol. Where a configuration exists in both sets
+(`segformer_concat` and `seg_full_ref`), the repeated run is the primary result.
+The paper uses original runs only for the dropout-only models (`segformer_noconsist`,
+`unet_drop`, `manet_drop`) and the U-Net without the recipe (`unet_naive`), and
+marks them with a double dagger in its tables.
+
+**Fusion front ends** (`GatedFusionFrontEnd` in `src/lgmf/baselines.py`): per-sensor
+adapters (3x3 conv, no bias, GroupNorm with 8 groups, ReLU; S1 2->8, S2 6->24
+channels), availability masking, optional gate (MLP 34->32->2 on pooled adapter
+features plus the `present` vector, sigmoid, renormalised over present sensors),
+optional FiLM (MLP 2->32->64 on `present`, applied as x(1+gamma)+beta), and a 1x1
+projection 32->8 into the unchanged backbone. Default PyTorch initialisation;
+5,162 parameters for gate + FiLM, 1,768 for adapters + projection only.
+
+## Which notebook produces each table and figure
+
+| Paper item | Produced by |
+|---|---|
+| Table 1, Figure 1 (data) | `rev16` (geography), `rev17` (figure) |
+| Figure 2 (architecture) | `scripts/draw_fig_arch.py` |
+| Figure 3 (schedule) | `rev17` from `history.json` of the `rev12` runs |
+| Table 2 (main comparison), Figure 4 | `rev11` (original runs), `rev12`, `rev13`; figure `rev17` |
+| Table 3, Figure 6 (paired differences) | `rev16`; figure `rev17` |
+| Figure 5 (predictions) | `rev17` |
+| Table 4 (factorial), Table 5 (dropout controls) | `rev12` |
+| Table 6 (specialists, two-sided consistency) | `rev13` |
+| Table 7 (backbone screening, validation) | `notebooks/06_backbone_sweep.ipynb` |
+| Table 8 (cost), Table 9 (fusion front ends), Figure 7 | `rev14`; figure `rev17` |
+| Table 10 (Bolivia) | `rev16` |
+| Table 11, Figure 8 (partial cloud) | `rev16`; figure `rev17` |
+| Table 12 (SenForFlood) | `rev15` |
+| Table 13 (per event) | `scripts/per_event_table.py` on `nb16_perchip_all.csv.gz` |
+| Figure 9 (failure cases) | `rev17` |
+
+Training times in Table 8 are wall-clock means over three seeds for 45 epochs
+including per-epoch validation on a Kaggle T4 (`train_minutes` in each
+`result.json`).
 
 ## Original notebooks (paper v1)
 
@@ -134,7 +214,7 @@ required Kaggle dataset attachments and expected runtime in its first cell.
 Notebooks 06, 08, and 09 document architectural alternatives that were tested
 and **did not** outperform the final design; they are included for
 transparency and because the paper reports them as controlled negative
-results (see Section 4.6-4.7 of the paper).
+results (see Sections 4.4 and 4.6 of the paper).
 
 ## Revision notebooks (`notebooks/revision/`)
 
@@ -214,8 +294,9 @@ See `CITATION.cff`. If you use this code, please cite:
 @article{rafin2026lgmf,
   title   = {Curriculum Modality Dropout and Self-Consistency for Robust
              Optical-SAR Flood Mapping with Missing Sensors},
-  author  = {Rafin, Nafiz Imtiaz and Ghose, Swattic and Jawad, Rubaiyet Hossain
-             and Alam, Md. Golam Rabiul},
+  author  = {Rafin, Nafiz Imtiaz and Ghose, Swattic and Jawwad, Rubaiyet Hossain
+             and Alam, Md. Golam Rabiul and Al-Wadud, Md. Abdullah
+             and Sabuj, Saifur Rahman and Uddin, Jia},
   journal = {Under review},
   year    = {2026}
 }
